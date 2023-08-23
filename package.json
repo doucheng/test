@@ -1,13 +1,13 @@
 {
   "version": "0.0.29",
-  "description": "a apitable widget",
+  "description": "一个 ONES 插件项目",
   "engines": {
     "node": ">=8.x"
   },
   "keywords": [
-    "apitable",
-    "widgets",
-    "apitable widgets"
+    "ones",
+    "plugin",
+    "ones plugin"
   ],
   "main": "./dist/index",
   "module": "./dist/index",
@@ -17,20 +17,17 @@
   ],
   "license": "MIT",
   "scripts": {
-    "start": "widget-cli start",
-    "release": "widget-cli release"
-  },
-  "peerDependencies": {
-    "react": "16.14.0",
-    "react-dom": "16.14.0"
+    "start": "ones-cli start",
+    "release": "ones-cli release"
   },
   "dependencies": {
-    "@types/react": "^16.9.43",
-    "@types/react-dom": "^16.9.8",
     "@apitable/components": "latest",
     "@apitable/icons": "latest",
-    "@apitable/widget-sdk": "latest",
-    "typescript": "4.1.2"
+    "@apitable/widget-sdk": "^0.0.2",
+    "@ones/plugin-sdk": "0.1.4",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
   },
   "devDependencies": {
     "@types/node": "^16.4.10"

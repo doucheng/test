@@ -1,5 +1,5 @@
 import React from "react";
-import { initializeWidget } from "@apitable/widget-sdk";
+import { initializeWidget } from "@ones/plugin-sdk";
 import { Setting } from "./setting";
 
 export const HelloWorld: React.FC = () => {
@@ -13,4 +13,4 @@ export const HelloWorld: React.FC = () => {
   );
 };
 
-initializeWidget(HelloWorld, process.env.WIDGET_PACKAGE_ID);
+initializeWidget(HelloWorld, process.env.PLUGIN_PACKAGE_ID);
